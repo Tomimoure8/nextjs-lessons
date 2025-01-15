@@ -6,8 +6,8 @@ import { OtroButton } from "./page2/page2";
 export default function Home() {
   return (
     <>
-      {/* <ContadorButton/> */}
-      <OtroButton/>
+      <ContadorButton/>
+      {/* <OtroButton/> */}
     </>
   );
 }

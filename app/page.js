@@ -1,17 +1,16 @@
 'use client';
+import Head from 'next/head';
 import {ContadorButton} from "./page1/pagee";
-import { OtroButton } from "./page2/page2";
 import { Header } from "./componentes/ui/Header";
-
-export const metadata = {
-  title: "Practica de Nextjs",
-  Description: "App de muestra en next JS",
-  keywords: ["Coderhouse", "Nextjs", "Versel", "SSR" ],
-}
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Practica de Netxjs</title>
+        <meta name="description" content="App de muestra en next JS" />
+        <meta name="keywords" content="Coderhouse, Nextjs, Versel, SSR" />
+      </Head>
       <Header/>
       <ContadorButton/>
       {/* <OtroButton/> */}
